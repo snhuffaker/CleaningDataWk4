@@ -1,4 +1,4 @@
-# Getting and Cleaning Data Week 4 project
+## Getting and Cleaning Data Week 4 project
 
 This repository contains the following files:
 
