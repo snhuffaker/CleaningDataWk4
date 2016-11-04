@@ -1,5 +1,4 @@
-# CleaningDataWk4
-Coursera Getting and Cleaning Data week 4 project.
+# Getting and Cleaning Data Week 4 project
 
 This repository contains the following files:
 
@@ -17,4 +16,3 @@ This repository contains the following files:
    - calculates the average of all columns by subject and activity
    - exports this summary data to a text file named tidydata.txt
 4. **tidydata.txt** - contains the results from the R script run_analysis.R referenced above
-
