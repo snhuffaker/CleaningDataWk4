@@ -1,8 +1,9 @@
 ##check for data folder, establish url, download file, unzip file 
 ##and collapse all folders to one directory
 if(!file.exists("./data")){dir.create("./data")}
+download.file.method = "curl"
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(fileUrl,destfile="./data/wearables.zip", method="curl")
+download.file(fileUrl,destfile="./data/wearables.zip")
 unzip("./data/wearables.zip", junkpaths = TRUE, exdir = "./data/wearables")
 
 ##import headers
